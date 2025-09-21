@@ -1,0 +1,223 @@
+
+[
+  {
+    "title": "How chords work",
+    "url": "https://www.youtube.com/watch?v=JfD0nHrJDC0",
+    "component": "HowChordsWork",
+    "summary": "This video explains the fundamentals of musical chords, focusing on how to build major, minor, diminished, and augmented triads from a root note and how their inversions are formed.",
+    "transcript": "Okay, so what is a chord? A chord is just multiple notes played at the same time. For example, if I play a C on the piano, that's just a note. But if I play a C, an E, and a G at the same time, that's a C major chord. It's a type of triad, which is a specific type of chord built with three notes.\\n\\nToday, we're going to talk about the four basic types of triads: major, minor, diminished, and augmented. They're all built using a root, a third, and a fifth.\\n\\nA major triad is built with a root, a major third, and a perfect fifth. For C, the major third is E, and the perfect fifth is G. So, C-E-G is a C major chord.\\n\\nA minor triad has a root, a minor third, and a perfect fifth. So, we take our C major chord and lower the third by a half step. C, E-flat, and G. That's a C minor chord.\\n\\nA diminished triad is a root, a minor third, and a diminished fifth. We take our minor chord and lower the fifth by a half step. C, E-flat, and G-flat. That's a C diminished chord.\\n\\nAn augmented triad is a root, a major third, and an augmented fifth. So we take our major chord and raise the fifth by a half step. C, E, and G-sharp. That's a C augmented chord.\\n\\nNow let's talk about inversions. When the root of the chord is the lowest note, it's in root position. If we take that root and move it to the top, so the third is now the lowest note, we get the first inversion. If we then take that third and move it to the top, so the fifth is the lowest note, we get the second inversion. It's the same chord, just with a different note in the bass.",
+    "spec": "Build me an interactive web app to help a learner understand triads and their inversions.\n\nSPECIFICATIONS:\n1. The app must feature an interactive keyboard. When a key is pressed, the corresponding note should sound.\n2. The app must allow the user to select a root note (C, D, E, F, G, A, or B).  This root note should be displayed clearly. The root note should default to C.\n3. The app must have difficulty levels. 'Easy' shows Major/Minor triads. 'Medium' adds Diminished/Augmented. 'Hard' adds 7th chords.\n4. The app must allow the user to select an inversion (Root position, First Inversion, Second Inversion). The inversion should be displayed clearly. The inversion should default to Root Position.\n5. Based on the selected root, triad type, and inversion, the app must highlight the corresponding notes on the keyboard.  The notes should also sound.\n6. The app must display the formula for generating the triad in terms of intervals (e.g., for C Major, it should display 'Root: C, Third: Major Third, Fifth: Perfect Fifth'). For inversions, it should explicitly state which note is the lowest (e.g., 'Lowest note is Third').\n7.  The app must be responsive and work well on both desktop and mobile devices.",
+    "captions": [],
+    "chatHistory": [
+      {
+        "role": "model",
+        "text": "Hello! I'm your AI tutor for the Chord Explorer. Ask me anything about how chords are built, what inversions are, or how to use this app!"
+      }
+    ]
+  },
+  {
+    "title": "Understanding fractals",
+    "url": "https://youtu.be/WFtTdf3I6Ug?si=8CO3POAroZcf9Vfj",
+    "component": "UnderstandingFractals",
+    "summary": "This video introduces fractals using the Koch snowflake as an example, illustrating how these complex patterns are generated from simple rules repeated at smaller and smaller scales.",
+    "transcript": "[Transcription for this video is not available in the example data.]",
+    "spec": "This app will help a learner understand the concept of fractals, as exemplified by the Koch snowflake. The core idea is that fractals are patterns that repeat themselves at different scales.\\n\\nSPECIFICATIONS:\\n\\n1. The app must have difficulty levels. 'Easy' and 'Medium' will use the Koch snowflake with different iteration limits. 'Hard' will unlock the Sierpinski Triangle fractal.\\n2.  The app should start with a single equilateral triangle in the center of the screen.\\n3.  The app should have a button labeled \\\"Iterate\\\" or similar.\\n4.  When the \\\"Iterate\\\" button is pressed, the app should perform one iteration of the chosen fractal's construction. The app should smoothly animate this process.\\n5.  The app should display a counter showing the number of iterations performed.\\n6.  The app should have a button labeled \\\"Reset\\\" or similar.\\n7. The app should include a \\\"zoom\\\" feature, such that the user may zoom in on any particular area of the image.\\n8. The app should allow the user to change the color of the snowflake, and the background.",
+    "captions": [],
+    "chatHistory": [
+      {
+        "role": "model",
+        "text": "Hi there! Welcome to the Fractal Explorer. I can help you understand what fractals are, how the 'Iterate' button works, or explain the math behind the snowflake. What's on your mind?"
+      }
+    ]
+  },
+  {
+    "title": "Logic behind Chinese characters",
+    "url": "https://youtu.be/U0EySK4T2aY?si=HV_ZHWS8KdJZmZJP",
+    "component": "LogicBehindChineseCharacters",
+    "summary": "This video breaks down the structure of Chinese characters, explaining how most are composed of a 'radical' that hints at the meaning and a 'phonetic' component that hints at the sound.",
+    "transcript": "[Transcription for this video is not available in the example data.]",
+    "spec": "Chinese characters are logograms, symbols that represent a word or phrase. Most modern-day characters are constructed of two components: a radical (which hints at the meaning of the character) and a sound component (which hints at its pronunciation). Radicals can appear in different positions: to the left, to the right, above, below, or even surrounding the rest of the character.\\n\\nBuild me an interactive web app to help a learner understand the structure of Chinese characters.\\n\\nSPECIFICATIONS:\\n1. The app must feature a central display area for a Chinese character.\\n2. The app must feature a palette containing a set of radicals and a palette for sound components.\\n3. The app must have difficulty levels. 'Easy' will use a small set of components. 'Medium' will use a larger set. 'Hard' will introduce a 'Quiz Mode' where the user must assemble a character from its description.\\n4. The app must allow the user to drag radicals and/or sound components onto the central display area. When a radical and sound component are combined in this way, the resulting character should be displayed.\\n5. The app must feature a short explanation of the radical component and the sound component of each character that is displayed.\\n6. When a new character is displayed, the app should also state the pronunciation of the character (using Pinyin).",
+    "captions": [],
+    "chatHistory": [
+      {
+        "role": "model",
+        "text": "Nǐ hǎo! I'm here to help you with the Chinese Character Builder. Ask me about radicals, sound components, or why certain combinations make the characters they do!"
+      }
+    ]
+  },
+  {
+    "title": "Solar System Explorer",
+    "url": "https://www.youtube.com/watch?v=libKVRa01L8",
+    "component": "SolarSystemExplorer",
+    "summary": "This video takes you on a tour of our solar system, introducing the Sun and the eight planets, and sharing a fun fact about each one.",
+    "transcript": "Our solar system is a vast place with the Sun at its center. Let's meet the planets. Mercury is the closest to the sun and is very hot. Venus is the hottest planet because of its thick atmosphere. Earth is our home, the only planet known to have life. Mars is the red planet, known for its dust storms. Jupiter is the largest planet, a gas giant. Saturn is famous for its beautiful rings. Uranus is an ice giant that spins on its side. Neptune is the farthest planet, cold and windy.",
+    "spec": "Build an interactive model of the solar system to help learners explore the planets.\\n\\nSPECIFICATIONS:\\n1. The app should display a simplified 2D model of the solar system with the Sun in the center and planets orbiting it.\\n2. The app must have difficulty levels. 'Easy' shows the 8 main planets. 'Medium' adds dwarf planets. 'Hard' adds major moons and more technical data for each body.\\n3. The celestial bodies should be clickable objects.\\n4. When a user clicks on a body, an information box should appear with its name and interesting facts.\\n5. The app should have a clean, visually appealing design with a dark, space-themed background.",
+    "captions": [],
+    "chatHistory": [
+      {
+        "role": "model",
+        "text": "Welcome, space explorer! I can answer questions about the planets shown in this app based on the video's summary. What would you like to know?"
+      }
+    ]
+  },
+  {
+    "title": "4-Stroke Engine Animator",
+    "url": "https://www.youtube.com/watch?v=ZQvfHyfgBtA",
+    "component": "FourStrokeEngineAnimator",
+    "summary": "This video explains the workings of a four-stroke internal combustion engine by breaking down the four key stages: intake, compression, power, and exhaust.",
+    "transcript": "The vast majority of cars use a four-stroke combustion cycle. Let's break it down. First is the intake stroke. The piston moves down, drawing a mixture of fuel and air into the cylinder. Second, the compression stroke. The piston moves up, compressing the fuel-air mixture. Third is the power or combustion stroke. A spark plug ignites the mixture, and the explosion forces the piston down, creating power. Finally, the exhaust stroke. The piston moves back up, pushing the burnt gases out of the cylinder. This cycle repeats thousands of times per minute.",
+    "spec": "Create an interactive animation of a four-stroke engine cycle.\\n\\nSPECIFICATIONS:\\n1. The app must visually represent a cross-section of a single-cylinder engine.\\n2. The app must have difficulty levels. 'Easy' allows manual step-through of the four strokes. 'Medium' adds an auto-play feature with a speed slider. 'Hard' adds more detailed labels and highlights active parts during each stroke.\\n3. As the user navigates through the steps, the animation should clearly show the movement of the piston and valves.\\n4. A text description should accompany each step, explaining what is happening.\\n5. The current stroke's name should be prominently displayed.",
+    "captions": [],
+    "chatHistory": [
+      {
+        "role": "model",
+        "text": "Hello! I can help explain the four-stroke engine. Ask me about the intake, compression, power, or exhaust strokes and I'll tell you what this app demonstrates."
+      }
+    ]
+  },
+  {
+    "title": "Supply & Demand Simulator",
+    "url": "https://www.youtube.com/watch?v=g9aDizJpd_s",
+    "component": "SupplyAndDemandSimulator",
+    "summary": "This video introduces the fundamental economic principles of supply and demand, explaining how the interaction between what producers are willing to sell and what consumers are willing to buy determines market price.",
+    "transcript": "Supply and demand is one of the most basic concepts in economics. The demand curve shows how much of a good consumers want to buy at different prices. Generally, as price falls, quantity demanded increases. The supply curve shows how much producers are willing to sell at different prices. As price rises, quantity supplied increases. Where these two curves intersect, we find the equilibrium price and quantity. This is the point where the market is stable.",
+    "spec": "Build an interactive supply and demand graph simulator.\\n\\nSPECIFICATIONS:\\n1. The app must display a standard economic graph with Price on the Y-axis and Quantity on the X-axis.\\n2. The app must have difficulty levels. 'Easy', 'Medium', and 'Hard' will adjust the magnitude of the curve shifts. 'Hard' mode will also introduce a 'Market Shock' feature that adds random external events like taxes or subsidies.\\n3. The graph must show a downward-sloping demand curve and an upward-sloping supply curve, and clearly mark the 'Equilibrium Point'.\\n4. The app must allow the user to increase or decrease both 'Demand' and 'Supply' using controls.\\n5. When the user changes supply or demand, the corresponding curve should shift on the graph.\\n6. The equilibrium point and values should update in real-time as the curves shift.",
+    "captions": [],
+    "chatHistory": [
+      {
+        "role": "model",
+        "text": "Welcome to the Supply & Demand Simulator! I can answer your questions about the supply curve, the demand curve, and how they determine the equilibrium price."
+      }
+    ]
+  },
+  {
+    "title": "Animated Knot Tying Guide",
+    "url": "https://www.youtube.com/watch?v=Q9NqG3-5_H8",
+    "component": "AnimatedKnotTyingGuide",
+    "summary": "This video provides a clear, step-by-step demonstration of how to tie the bowline knot, one of the most essential and useful knots for boating, climbing, and rescue.",
+    "transcript": "The bowline knot creates a fixed loop at the end of a rope. To tie it, first make a small loop in the standing part of the rope. This is the rabbit hole. The end of the rope is the rabbit. The rabbit comes up out of the hole, goes around the tree (the standing part), and then back down into the hole. Pull it tight, and you have a secure bowline.",
+    "spec": "Create an interactive, animated guide for tying knots.\\n\\nSPECIFICATIONS:\\n1. The app should display a large, clear visual of a rope on a contrasting background.\\n2. The app must have difficulty levels. 'Easy' will teach the standard Bowline. 'Hard' will add more complex knots like the 'Figure 8 Bend' and the 'Double Bowline'.\\n3. The app must break down the knot-tying process into simple, numbered steps with animations.\\n4. The user should be able to navigate through the steps using 'Next' and 'Previous' buttons.\\n5. For each step, a short text description should explain the action.\\n6. The app should have a 'Reset' button.",
+    "captions": [],
+    "chatHistory": [
+      {
+        "role": "model",
+        "text": "Hi! I can help you with this knot tying guide. Ask me about any of the steps for tying a bowline or how the animation works."
+      }
+    ]
+  },
+  {
+    "title": "Interactive Chess Rules",
+    "url": "https://www.youtube.com/watch?v=fKxG8KjH1Qg",
+    "component": "InteractiveChessRules",
+    "summary": "This video teaches the fundamental rules of chess by explaining how each of the six different types of pieces—Pawn, Rook, Knight, Bishop, Queen, and King—moves on the board.",
+    "transcript": "The King is the most important piece, but it's one of the weakest. It can move one square in any direction. The Queen is the most powerful piece. She can move any number of squares in any direction: horizontally, vertically, or diagonally. The Rook moves any number of squares horizontally or vertically. The Bishop moves any number of squares diagonally. The Knight moves in an 'L' shape: two squares in one direction, and then one square at a 90-degree angle. The Pawn moves forward one square, but captures diagonally.",
+    "spec": "Build an interactive chessboard to help learners understand how each chess piece moves.\\n\\nSPECIFICATIONS:\\n1. The app must display a standard 8x8 chessboard.\\n2. The app must have difficulty levels. 'Easy' mode shows the moves for a single selected piece. 'Medium' allows placing multiple pieces. 'Hard' introduces interactive scenarios to visualize concepts like 'Check' and 'Castling'.\\n3. The app must highlight all legal moves for a selected piece from its current position.\\n4. The user should be able to drag the pieces to any of the highlighted squares.\\n5. When the piece is moved, the highlighted squares should update.",
+    "captions": [],
+    "chatHistory": [
+      {
+        "role": "model",
+        "text": "Welcome to the Interactive Chess Rules app. I can tell you how any piece moves on the board based on the video. Which piece are you curious about?"
+      }
+    ]
+  },
+  {
+    "title": "Photosynthesis Simulator",
+    "url": "https://www.youtube.com/watch?v=prg2Z4j_y8Y",
+    "component": "PhotosynthesisSimulator",
+    "summary": "This video explains the process of photosynthesis, where plants use sunlight, water, and carbon dioxide to create their own food (glucose) and release oxygen.",
+    "transcript": "Photosynthesis is how plants eat. They take in three main ingredients: water through their roots, carbon dioxide from the air, and energy from sunlight. Inside the plant's leaves, in tiny structures called chloroplasts, a chemical reaction happens. This reaction converts the water and carbon dioxide into glucose, which is a type of sugar that the plant uses for energy. As a byproduct, the plant releases oxygen back into the air, which is what we breathe.",
+    "spec": "Build an interactive simulation of the photosynthesis process.\\n\\nSPECIFICATIONS:\\n1. The app must display a visual representation of a plant leaf or chloroplast.\\n2. The app must have difficulty levels. 'Easy' will show a simple animation of inputs (Sunlight, CO2, Water) and outputs (Glucose, Oxygen). 'Medium' will add the chemical formulas (e.g., 6CO2 + 6H2O -> C6H12O6 + 6O2). 'Hard' will add sliders to control light intensity and CO2 levels, showing how they affect the rate of oxygen production.",
+    "captions": [],
+    "chatHistory": [{"role": "model", "text": "Hello! I can help you understand photosynthesis. Ask me about the inputs, outputs, or how environmental factors can change the process."}]
+  },
+  {
+    "title": "Guitar Chord Trainer",
+    "url": "https://www.youtube.com/watch?v=L9LJEz_ig_8",
+    "component": "GuitarChordTrainer",
+    "summary": "This video teaches beginner guitar players how to read chord diagrams and play several basic open chords, such as G, C, D, and E minor.",
+    "transcript": "A chord diagram is a map of the guitar neck. The vertical lines are strings, and the horizontal lines are frets. A dot shows you where to put your finger. Let's learn a G chord. You'll place your fingers on the 3rd fret of the low E, the 2nd fret of the A, and the 3rd fret of the high E. Now, let's try a C chord... and a D chord... Great, now you can practice switching between them.",
+    "spec": "Build an interactive guitar chord trainer.\\n\\nSPECIFICATIONS:\\n1. The app must display a clear, interactive guitar fretboard.\\n2. The app must have difficulty levels. 'Easy' will teach basic open chords (G, C, D, Em, Am). 'Medium' will introduce common barre chords (F, Bm). 'Hard' will teach movable 7th chord shapes and include a 'quiz me' mode to test chord recognition.",
+    "captions": [],
+    "chatHistory": [{"role": "model", "text": "Hi there! Ready to learn some guitar? I can help you with finger positions for different chords or explain how to read the diagrams."}]
+  },
+  {
+    "title": "Basic Circuit Builder",
+    "url": "https://www.youtube.com/watch?v=vbj-e-I3o0M",
+    "component": "BasicCircuitBuilder",
+    "summary": "This video explains the basics of a simple electrical circuit, demonstrating how a power source (battery), a path (wires), a load (light bulb), and a switch work together to control the flow of electricity.",
+    "transcript": "A simple circuit needs four things. A power source, like a battery. A load, like a light bulb, which does the work. A path for the electricity to flow, which are the wires. And a switch to open or close the circuit. When the switch is closed, the circuit is complete, and electricity flows from the battery, through the bulb, and back to the battery, causing the bulb to light up. When the switch is open, the path is broken, and the bulb goes off.",
+    "spec": "Build a simple, interactive circuit builder.\\n\\nSPECIFICATIONS:\\n1. The app must provide a workspace and a palette of basic components: a battery, wires, a light bulb, and a switch.\\n2. The user must be able to drag and drop components onto the workspace and connect them with wires to build a circuit.\\n3. The app must have difficulty levels. 'Easy' allows building a simple circuit with one bulb. 'Medium' introduces adding multiple bulbs in series. 'Hard' allows building both series and parallel circuits and adds a voltmeter tool to measure voltage across components.",
+    "captions": [],
+    "chatHistory": [{"role": "model", "text": "Welcome to the Circuit Builder! I can help you understand how circuits work, or explain the difference between series and parallel connections."}]
+  },
+  {
+    "title": "CSS Flexbox Visualizer",
+    "url": "https://www.youtube.com/watch?v=K74l26pE4YA",
+    "component": "CSSFlexboxVisualizer",
+    "summary": "This video provides a visual guide to CSS Flexbox, explaining the core concepts of the main axis and cross axis and demonstrating key container properties like justify-content and align-items.",
+    "transcript": "Flexbox is a layout model in CSS. When you set a container to `display: flex`, its children become flex items. You can control their alignment along the main axis with `justify-content`. For example, `flex-start`, `center`, or `space-between`. You control alignment on the cross axis with `align-items`. For example, `flex-start`, `center`, or `stretch`. By changing these properties, you can easily create complex, responsive layouts.",
+    "spec": "Build an interactive visualizer for CSS Flexbox properties.\\n\\nSPECIFICATIONS:\\n1. The app must display a container element with several child items inside.\\n2. The app must have difficulty levels. 'Easy' provides controls for the main container properties like `justify-content` and `align-items`. 'Medium' adds controls for `flex-direction` and `flex-wrap`. 'Hard' adds controls for individual item properties like `flex-grow`, `flex-shrink`, and `order`.",
+    "captions": [],
+    "chatHistory": [{"role": "model", "text": "Hello! I'm here to help you master Flexbox. Ask me what any of the properties do, or for an example of how to achieve a certain layout."}]
+  },
+  {
+    "title": "Poetry Meter Scanner",
+    "url": "https://www.youtube.com/watch?v=I5I6koi-t-4",
+    "component": "PoetryMeterScanner",
+    "summary": "This video explains poetic meter, focusing on iambic pentameter, the rhythm used by Shakespeare. It breaks down the pattern of unstressed and stressed syllables that create the da-DUM da-DUM rhythm.",
+    "transcript": "Iambic pentameter is a line of poetry with ten syllables, following a pattern of unstressed, then stressed. An iamb is a two-syllable foot with the pattern da-DUM. Pentameter means there are five of these feet in a line. So, da-DUM da-DUM da-DUM da-DUM da-DUM. For example: 'Shall I compare thee to a summer's day?' See? It has that natural, heartbeat-like rhythm.",
+    "spec": "Build an interactive tool to help learners understand poetic meter, specifically iambic pentameter.\\n\\nSPECIFICATIONS:\\n1. The app must display lines of poetry.\\n2. The app must have difficulty levels. 'Easy' shows pre-scanned lines where users can click syllables to see if they are stressed or unstressed. 'Medium' requires the user to scan the line themselves and provides feedback. 'Hard' introduces poetic variations (like a trochaic first foot) and has a quiz mode.",
+    "captions": [],
+    "chatHistory": [{"role": "model", "text": "Welcome! I can help you understand the rhythm of poetry. Ask me about iambs, pentameter, or why a certain line is scanned the way it is."}]
+  },
+  {
+    "title": "SQL Query Simulator",
+    "url": "https://www.youtube.com/watch?v=p3qvj9hO_Bo",
+    "component": "SQLQuerySimulator",
+    "summary": "This video introduces the basics of SQL (Structured Query Language), explaining how to use the SELECT statement to retrieve data from a database table and the WHERE clause to filter that data.",
+    "transcript": "SQL is the language we use to talk to databases. The most common command is `SELECT`. If you want to see everything in a table called 'Employees', you'd write `SELECT * FROM Employees;`. The asterisk means 'all columns'. If you only want to see employees from the 'Sales' department, you can filter the results with a `WHERE` clause, like this: `SELECT * FROM Employees WHERE department = 'Sales';`",
+    "spec": "Build a simple SQL query simulator.\\n\\nSPECIFICATIONS:\\n1. The app must display a sample database table or tables.\\n2. The app must provide a text area for the user to write SQL queries.\\n3. The app must have difficulty levels. 'Easy' uses a single 'Employees' table and allows basic `SELECT` and `WHERE` queries. 'Medium' adds a 'Departments' table and introduces `JOIN`s. 'Hard' adds a third table ('Salaries') and introduces aggregate functions like `COUNT()` and `GROUP BY`.",
+    "captions": [],
+    "chatHistory": [{"role": "model", "text": "Hello! I'm your SQL tutor. I can help you write queries, explain what a `JOIN` is, or give you hints on the exercises."}]
+  },
+  {
+    "title": "DNA to Protein Synthesizer",
+    "url": "https://www.youtube.com/watch?v=gG7uCskUOrA",
+    "component": "DNAToProteinSynthesizer",
+    "summary": "This video explains the central dogma of molecular biology: how the genetic code in DNA is transcribed into mRNA and then translated into a protein.",
+    "transcript": "How does a cell make a protein? It starts with DNA. The first step is transcription. An enzyme unzips the DNA, and a copy is made, but this copy is called messenger RNA, or mRNA. The mRNA then leaves the nucleus and goes to a ribosome. The second step is translation. The ribosome reads the mRNA in three-letter words called codons. Each codon corresponds to a specific amino acid. The ribosome links these amino acids together in a chain, which then folds into a functional protein.",
+    "spec": "Build an interactive animation of protein synthesis.\\n\\nSPECIFICATIONS:\\n1. The app must visually represent the process from DNA to protein.\\n2. The app must have difficulty levels. 'Easy' shows a non-interactive animation of the whole process. 'Medium' allows the user to step through transcription and translation manually. 'Hard' allows the user to click on a DNA base to create a mutation and see how it affects the final protein (e.g., silent, missense, or nonsense mutation).",
+    "captions": [],
+    "chatHistory": [{"role": "model", "text": "Welcome! I can explain transcription, translation, or show you what happens if the DNA code changes. What are you curious about?"}]
+  },
+  {
+    "title": "Color Theory Mixer",
+    "url": "https://www.youtube.com/watch?v=AvgCkHrcj90",
+    "component": "ColorTheoryMixer",
+    "summary": "This video explains basic color theory for artists, covering primary, secondary, and tertiary colors and how to mix them.",
+    "transcript": "The primary colors are red, yellow, and blue. You can't mix other colors to get these. If you mix two primary colors, you get a secondary color. Red and yellow make orange. Yellow and blue make green. Blue and red make purple. If you mix a primary with a neighboring secondary, you get a tertiary color, like red-orange or blue-green. Understanding this helps you create harmonious color schemes.",
+    "spec": "Build an interactive color mixing tool.\\n\\nSPECIFICATIONS:\\n1. The app must display a color palette and a mixing area.\\n2. The app must have difficulty levels. 'Easy' allows mixing of the three primary colors (Red, Yellow, Blue) to create secondary colors. 'Medium' introduces black and white to create tints, shades, and tones. 'Hard' adds a full color wheel and a tool to explore color harmonies (complementary, analogous, triadic) and view RGB/HSB values.",
+    "captions": [],
+    "chatHistory": [{"role": "model", "text": "Hi! I'm here to help you with color theory. Ask me how to mix a certain color, or what 'analogous colors' means."}]
+  },
+  {
+    "title": "Rhythm Training Game",
+    "url": "https://www.youtube.com/watch?v=FIV_AMpM_WE",
+    "component": "RhythmTrainingGame",
+    "summary": "This video teaches the basics of musical rhythm, explaining the note values of whole notes, half notes, quarter notes, and eighth notes.",
+    "transcript": "Rhythm is all about timing. In a 4/4 time signature, a whole note gets four beats. A half note gets two beats. A quarter note gets one beat. And an eighth note gets half a beat. So you can fit two eighth notes in the same time as one quarter note. Let's clap a simple rhythm: one, two, three-and, four.",
+    "spec": "Build a simple rhythm training game.\\n\\nSPECIFICATIONS:\\n1. The app must display a sequence of musical notes visually.\\n2. The app should play a rhythmic pattern and require the user to tap it back in time.\\n3. The app must have difficulty levels. 'Easy' uses simple rhythms with only quarter and half notes. 'Medium' introduces eighth notes. 'Hard' introduces rests and more complex syncopated patterns.",
+    "captions": [],
+    "chatHistory": [{"role": "model", "text": "Ready to work on your rhythm? I can explain what a quarter note is, or give you tips on how to master the patterns."}]
+  },
+  {
+    "title": "Map Projection Visualizer",
+    "url": "https://www.youtube.com/watch?v=kIID5FDi2JQ",
+    "component": "MapProjectionVisualizer",
+    "summary": "This video explains the challenge of representing a 3D spherical Earth on a 2D flat map, introducing the concept of map projections and showing how the popular Mercator projection distorts the size of landmasses near the poles.",
+    "transcript": "You can't flatten an orange peel without stretching or tearing it. The same problem applies to mapping the Earth. Every flat map has some distortion. The Mercator projection, which you see everywhere, is great for navigation because it preserves angles, so straight lines are constant compass bearings. But it has a huge problem: it massively distorts area. Greenland looks as big as Africa on a Mercator map, but in reality, Africa is 14 times larger.",
+    "spec": "Build an interactive map projection visualizer.\\n\\nSPECIFICATIONS:\\n1. The app must display a 3D globe and a 2D map side-by-side.\\n2. The app must have difficulty levels. 'Easy' shows the standard Mercator projection and allows the user to drag a country on one to see its distorted size on the other. 'Medium' allows switching between different projections (e.g., Mercator, Peters, Robinson). 'Hard' adds Tissot's indicatrix (circles) to the globe to visually demonstrate how each projection distorts shape, area, and angle.",
+    "captions": [],
+    "chatHistory": [{"role": "model", "text": "Hello! I can help you understand why Greenland looks so big on maps, or explain the differences between map projections."}]
+  }
+]

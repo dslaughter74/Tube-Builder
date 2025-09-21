@@ -1,0 +1,6 @@
+/* tslint:disable */
+export const getYouTubeVideoId=(url:string):string|null=>{const m=url.match(/^.*(youtu.be\/|v\/|u\/\w\/|embed\/|watch\?v=|&v=)([^#&?]*).*/);return m&&m[2].length===11?m[2]:null};
+export const validateYoutubeUrl=async(url:string)=>getYouTubeVideoId(url)?{isValid:true}:{isValid:false,error:'Invalid YouTube URL format. Please use a valid URL.'};
+export const getYoutubeEmbedUrl=(url:string):string=>`https://www.youtube.com/embed/${getYouTubeVideoId(url)}`;
+export const getYoutubeThumbnailUrl=(url:string):string=>{const videoId=getYouTubeVideoId(url);return videoId?`https://img.youtube.com/vi/${videoId}/mqdefault.jpg`:'';};
+export const getYouTubeVideoTitle=async(url:string)=>{const r=await fetch(`https://noembed.com/embed?url=${encodeURIComponent(url)}`);if(!r.ok)throw new Error('Could not validate URL. The validation service may be temporarily unavailable.');const d=await r.json();if(d.error||!d.title)throw new Error('Invalid video URL, or the video is private or unavailable.');return d.title};
